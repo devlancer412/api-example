@@ -24,7 +24,10 @@ const ForgotPassword = () => {
               <BlockContent>
                 <BlockTitle tag="h4">Cilistia's Testnet Whitelist</BlockTitle>
                 <BlockDes>
-                  <p>To register for the testnet please provide and EVM wallet address eg Metamask.</p>
+                  <p>
+                    To register for the testnet please provide your ETHEREUM wallet address for Metamask. If you provide
+                    an incorrect wallet address you will not be able to change it later.
+                  </p>
                 </BlockDes>
               </BlockContent>
             </BlockHead>
