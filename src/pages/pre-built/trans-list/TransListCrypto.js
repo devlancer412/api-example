@@ -5,7 +5,6 @@ import {
   UncontrolledDropdown,
   DropdownMenu,
   DropdownToggle,
-  
   ModalBody,
   Modal,
   DropdownItem,
@@ -166,25 +165,27 @@ const TransListCrypto = () => {
     <React.Fragment>
       <Head title="Trasaction List - Crypto"></Head>
       <Content>
-        <BlockHead size="sm">
-          <BlockBetween>
+        <BlockHead>
+          <BlockBetween size="md" className="g-4">
             <BlockHeadContent>
-              <BlockTitle page>Crypto Transaction</BlockTitle>
+              <BlockTitle page>Transaction History</BlockTitle>
               <BlockDes className="text-soft">
-                <p>You have total 12,835 orders.</p>
+                <p>For account 0x19b...4302</p>
               </BlockDes>
             </BlockHeadContent>
             <BlockHeadContent>
-              <ul className="nk-block-tools g-3">
-                <li>
-                  <Button color="light" outline className="btn-white">
-                    <Icon name="download-cloud"></Icon>
-                    <span>Export</span>
+              <ul className="nk-block-tools gx-3">
+                <li className="order-md-last">
+                  <Button color="primary" className="btn-sm">
+                    <span>Marketplace</span> <Icon name="arrow-long-right"></Icon>
                   </Button>
                 </li>
                 <li>
-                  <Button color="primary" className="btn-icon" onClick={() => setModal({ add: true })}>
-                    <Icon name="plus"></Icon>
+                  <Button color="white" className="btn btn-white btn-light btn-sm">
+                    <Icon name="download-cloud"></Icon>
+                    <span>
+                      <span className="d-none d-sm-inline-block">Download</span> Statement
+                    </span>
                   </Button>
                 </li>
               </ul>
@@ -197,7 +198,7 @@ const TransListCrypto = () => {
             <div className="card-inner">
               <div className="card-title-group">
                 <div className="card-title">
-                  <h5 className="title">All Orders</h5>
+                  <h5 className="title">All Transactions</h5>
                 </div>
                 <div className="card-tools me-n1">
                   <ul className="btn-toolbar gx-1">

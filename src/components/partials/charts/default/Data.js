@@ -127,8 +127,8 @@ export const orderOverviewSet1 = {
   datasets: [
     {
       label: "Buy Orders",
-      color: "#8feac5",
-      backgroundColor: "#8feac5",
+      color: "#1fe0ac",
+      backgroundColor: "#1fe0ac",
       barPercentage: 0.8,
       categoryPercentage: 0.6,
       data: [1740, 2500, 1820, 1200, 1600, 2500, 1820, 1200, 1700, 1820, 1400, 1600, 1930, 2100],
@@ -181,8 +181,8 @@ export const orderOverviewSet2 = {
   datasets: [
     {
       label: "Buy Orders",
-      color: "#8feac5",
-      backgroundColor: "#8feac5",
+      color: "#1fe0ac",
+      backgroundColor: "#1fe0ac",
       barPercentage: 0.8,
       categoryPercentage: 0.6,
       data: [
@@ -225,8 +225,8 @@ export const orderOverviewSet3 = {
   datasets: [
     {
       label: "Buy Orders",
-      color: "#8feac5",
-      backgroundColor: "#8feac5",
+      color: "#1fe0ac",
+      backgroundColor: "#1fe0ac",
       barPercentage: 0.8,
       categoryPercentage: 0.6,
       data: [1790, 2390, 2720, 2000, 2900, 1800, 1820, 1900, 1900, 1920, 1600, 1800, 2530, 2900],
@@ -264,7 +264,7 @@ export const coinOverview = {
         "rgba(121, 241, 220, 0.4)",
       ],
       fillOpacity: "0.5",
-      //color : [NioApp.hexRGB("#f98c45",.2),NioApp.hexRGB("#9cabff",.4),NioApp.hexRGB("#8feac5",.4),NioApp.hexRGB("#6b79c8",.4),NioApp.hexRGB("#79f1dc",.4)],
+      //color : [NioApp.hexRGB("#f98c45",.2),NioApp.hexRGB("#9cabff",.4),NioApp.hexRGB("#1fe0ac",.4),NioApp.hexRGB("#6b79c8",.4),NioApp.hexRGB("#79f1dc",.4)],
       data: [2520, 2020, 3500, 3000, 2950, 1920],
       barPercentage: 0.3,
       categoryPercentage: 0.8,
@@ -294,7 +294,7 @@ export const coinOverviewSet1 = {
         "rgba(121, 241, 220, 0.4)",
       ],
       fillOpacity: "0.5",
-      //color : [NioApp.hexRGB("#f98c45",.2),NioApp.hexRGB("#9cabff",.4),NioApp.hexRGB("#8feac5",.4),NioApp.hexRGB("#6b79c8",.4),NioApp.hexRGB("#79f1dc",.4)],
+      //color : [NioApp.hexRGB("#f98c45",.2),NioApp.hexRGB("#9cabff",.4),NioApp.hexRGB("#1fe0ac",.4),NioApp.hexRGB("#6b79c8",.4),NioApp.hexRGB("#79f1dc",.4)],
       data: [2420, 1820, 3000, 5000, 2450, 1820],
       barPercentage: 0.3,
       categoryPercentage: 0.8,
@@ -324,7 +324,7 @@ export const coinOverviewSet2 = {
         "rgba(121, 241, 220, 0.4)",
       ],
       fillOpacity: "0.5",
-      //color : [NioApp.hexRGB("#f98c45",.2),NioApp.hexRGB("#9cabff",.4),NioApp.hexRGB("#8feac5",.4),NioApp.hexRGB("#6b79c8",.4),NioApp.hexRGB("#79f1dc",.4)],
+      //color : [NioApp.hexRGB("#f98c45",.2),NioApp.hexRGB("#9cabff",.4),NioApp.hexRGB("#1fe0ac",.4),NioApp.hexRGB("#6b79c8",.4),NioApp.hexRGB("#79f1dc",.4)],
       data: [2320, 1120, 2000, 4000, 3450, 1520],
       barPercentage: 0.3,
       categoryPercentage: 0.8,
@@ -353,7 +353,7 @@ export const coinOverviewSet3 = {
         "rgba(121, 241, 220, 0.4)",
       ],
       fillOpacity: "0.5",
-      //color : [NioApp.hexRGB("#f98c45",.2),NioApp.hexRGB("#9cabff",.4),NioApp.hexRGB("#8feac5",.4),NioApp.hexRGB("#6b79c8",.4),NioApp.hexRGB("#79f1dc",.4)],
+      //color : [NioApp.hexRGB("#f98c45",.2),NioApp.hexRGB("#9cabff",.4),NioApp.hexRGB("#1fe0ac",.4),NioApp.hexRGB("#6b79c8",.4),NioApp.hexRGB("#79f1dc",.4)],
       data: [2520, 1920, 4000, 4500, 2650, 1920],
       barPercentage: 0.3,
       categoryPercentage: 0.8,

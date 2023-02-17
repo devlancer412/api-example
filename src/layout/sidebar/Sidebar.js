@@ -107,7 +107,7 @@ const Sidebar = ({ fixed, theme, className, sidebarToggle, mobileView, ...props 
                 <h6 className="overline-title">
                   Crypto Accounts <span>(4)</span>
                 </h6>
-                <Link to={`${process.env.PUBLIC_URL}/crypto/wallets`}  className="link">
+                <Link to={`${process.env.PUBLIC_URL}/crypto/wallets`} className="link">
                   View All
                 </Link>
               </div>
@@ -151,34 +151,6 @@ const Sidebar = ({ fixed, theme, className, sidebarToggle, mobileView, ...props 
               </ul>
             </div>
           )}
-          <div className="nk-sidebar-footer">
-            <ul className="nk-menu nk-menu-footer">
-              <li className="nk-menu-item">
-                <a href="#link" className="nk-menu-link" onClick={(ev) => ev.preventDefault()}>
-                  <span className="nk-menu-icon">
-                    <Icon name="help-alt"></Icon>
-                  </span>
-                  <span className="nk-menu-text">Support</span>
-                </a>
-              </li>
-              <li className="nk-menu-item ms-auto">
-                <UncontrolledDropdown direction="up">
-                  <DropdownToggle
-                    tag="a"
-                    href="#toggle"
-                    onClick={(ev) => ev.preventDefault()}
-                    className="nk-menu-link dropdown-indicator has-indicator"
-                  >
-                    <span className="nk-menu-icon">
-                      <Icon name="globe"></Icon>
-                    </span>
-                    <span className="nk-menu-text">English</span>
-                  </DropdownToggle>
-                  <LangDropdown size="sm" />
-                </UncontrolledDropdown>
-              </li>
-            </ul>
-          </div>
         </div>
       </SimpleBar>
     </div>

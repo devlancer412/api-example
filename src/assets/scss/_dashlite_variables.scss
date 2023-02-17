@@ -199,11 +199,11 @@ $h1-fs-lg: 3.75rem;
 $h2-fs-lg: 2.5rem;
 $h3-fs-lg: 2rem;
 $h4-fs-lg: 1.5rem;
-$h5-fs-lg: 1.25rem;
+$h5-fs-lg: 15px;
 $h6-fs-lg: 1.05rem;
 
 $page-title-ff: $alt-font-family;
-$page-title-fs: 1.5rem;
+$page-title-fs: 1.25rem;
 $page-title-fs-lg: 1.25rem;
 $page-title-fw: $fw-bold;
 
@@ -412,8 +412,8 @@ $textarea-min-height-lg: 208px;
 ///////////////////////////////////////
 
 $card-spacer-y: 0.75rem;
-$card-spacer-x: 1.25rem;
-$card-spacer-sm-x: 1.5rem;
+$card-spacer-x: 1rem;
+$card-spacer-sm-x: 1rem;
 $card-spacer-large: 2.5rem;
 
 $card-border-width: 0;

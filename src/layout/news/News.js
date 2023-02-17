@@ -9,9 +9,7 @@ const News = () => {
           <Icon name="card-view" />
         </div>
         <div className="nk-news-text">
-          <p>
-            $CIL Staking is now live on Goerli! <span> Stake your $CIL and earn 70% of Cilistia's revenue.</span>
-          </p>
+          <p>$CIL Staking is now live on Goerli.......</p>
           <Icon name="external" />
         </div>
       </a>

@@ -132,16 +132,20 @@ const Pages = () => {
         {/* Panel Pages */}
         <Route exact path={`${process.env.PUBLIC_URL}/crypto/`} component={CryptoDashboard}></Route>
         <Route exact path={`${process.env.PUBLIC_URL}/crypto/accounts`} component={Account}></Route>
-        <Route exact path={`${process.env.PUBLIC_URL}/crypto/wallets`} component={Wallets}></Route>
-        <Route exact path={`${process.env.PUBLIC_URL}/crypto/walletsbtc`} component={WalletsBtc}></Route>
-        <Route exact path={`${process.env.PUBLIC_URL}/crypto/buy-sell`} component={BuySell}></Route>
-        <Route exact path={`${process.env.PUBLIC_URL}/crypto/order-history`} component={Orders}></Route>
-        <Route exact path={`${process.env.PUBLIC_URL}/crypto/chat`} component={PanelChat}></Route>
+        <Route exact path={`${process.env.PUBLIC_URL}/wallets`} component={Wallets}></Route>
+        <Route exact path={`${process.env.PUBLIC_URL}/walletsbtc`} component={WalletsBtc}></Route>
+        <Route exact path={`${process.env.PUBLIC_URL}/buy-sell`} component={BuySell}></Route>
+        <Route exact path={`${process.env.PUBLIC_URL}/order-history`} component={Orders}></Route>
+        <Route exact path={`${process.env.PUBLIC_URL}/chat`} component={PanelChat}></Route>
         <Route exact path={`${process.env.PUBLIC_URL}/crypto/welcome`} component={Welcome}></Route>
         <Route exact path={`${process.env.PUBLIC_URL}/crypto/kyc-application`} component={KycApplications}></Route>
         <Route exact path={`${process.env.PUBLIC_URL}/crypto/kyc-form`} component={KycForms}></Route>
         <Route exact path={`${process.env.PUBLIC_URL}/crypto/user-profile-regular/`} component={UserProfile}></Route>
-        <Route exact path={`${process.env.PUBLIC_URL}/crypto/user-profile-notification/`} component={UserProfile}></Route>
+        <Route
+          exact
+          path={`${process.env.PUBLIC_URL}/crypto/user-profile-notification/`}
+          component={UserProfile}
+        ></Route>
         <Route exact path={`${process.env.PUBLIC_URL}/crypto/user-profile-connected/`} component={UserProfile}></Route>
         <Route exact path={`${process.env.PUBLIC_URL}/crypto/user-profile-setting/`} component={UserProfile}></Route>
 

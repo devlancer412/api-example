@@ -445,6 +445,7 @@ $menu-main-sub-toggle-icon-rtl: $ni-chevron-left !default;
 .nk-sidebar {
   .nk-menu-toggle:after {
     right: $sidebar-gap-x - 2;
+    color: #fff !important;
   }
   .nk-menu {
     > li {

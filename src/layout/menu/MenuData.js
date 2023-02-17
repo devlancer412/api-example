@@ -7,18 +7,18 @@ const menu = [
   },
   {
     icon: "cc-alt2",
-    text: "Payments",
-    link: "/sales",
+    text: "Transactions",
+    link: "/transaction-crypto",
   },
   {
     icon: "wallet",
     text: "Wallets",
-    link: "/analytics",
+    link: "/wallets",
   },
   {
     icon: "user",
     text: "Profile",
-    link: "/invest",
+    link: "/user-profile-regular",
   },
   {
     heading: "Marketplace",

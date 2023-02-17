@@ -4,7 +4,6 @@ import Content from "../layout/content/Content";
 import OrderOverview from "../components/partials/crypto/order-overview/OrderOverview";
 import CoinOrder from "../components/partials/crypto/coin-order/CoinOrder";
 import UserActivity from "../components/partials/crypto/user-activity/UserActivity";
-import OrderActivity from "../components/partials/order-activity/OrderActivity";
 import { Card, DropdownItem, DropdownMenu, DropdownToggle, UncontrolledDropdown } from "reactstrap";
 import {
   Block,
@@ -31,7 +30,7 @@ const CryptoHomePage = () => {
             <BlockHeadContent>
               <BlockTitle page>Overview</BlockTitle>
               <BlockDes className="text-soft">
-                <p>Welcome back 0xf...302</p>
+                <p>Welcome back 0x19b...4302</p>
               </BlockDes>
             </BlockHeadContent>
             <BlockHeadContent>
@@ -43,16 +42,16 @@ const CryptoHomePage = () => {
                   <Icon name="more-v" />
                 </Button>
                 <div className="toggle-expand-content" style={{ display: sm ? "block" : "none" }}>
-                  <ul className="nk-block-tools g-3">
+                  <ul className="nk-block-tools gx-3">
                     <li>
-                      <Button color="primary" className="btn-dim btn-white">
+                      <Button color="primary" className="btn-primary btn-sm">
                         <Icon name="reports"></Icon>
                         <span>All Transactions</span>
                       </Button>
                     </li>
                     <li className="nk-block-tools-opt">
                       <UncontrolledDropdown>
-                        <DropdownToggle color="primary" className="btn-dim btn-white btn-icon dropdown-toggle">
+                        <DropdownToggle color="primary" className="btn-primary btn-icon dropdown-toggle btn-sm">
                           <Icon name="plus"></Icon>
                         </DropdownToggle>
                         <DropdownMenu end>
