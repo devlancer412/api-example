@@ -19,12 +19,12 @@ const ForgotPassword = () => {
               <img className="logo-dark logo-img logo-img-lg" src={LogoDark} alt="logo-dark" />
             </Link>
           </div>
-          <PreviewCard className="card-bordered h-100 card" bodyClass="card-inner-lg">
+          <PreviewCard className="card-bordered h-100 card" bodyClass="card-inner-lg form-control">
             <BlockHead>
               <BlockContent>
                 <BlockTitle tag="h4">Cilistia's Testnet Whitelist</BlockTitle>
                 <BlockDes>
-                  <p>If you forgot your password, well, then we’ll email you instructions to reset your password.</p>
+                  <p>To register for the testnet please provide and EVM wallet address eg Metamask.</p>
                 </BlockDes>
               </BlockContent>
             </BlockHead>
