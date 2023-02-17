@@ -3,7 +3,6 @@ import Logo from "../../images/logo.svg";
 import LogoDark from "../../images/logo.svg";
 import PageContainer from "../../layout/page-container/PageContainer";
 import Head from "../../layout/head/Head";
-import AuthFooter from "./AuthFooter";
 import { Block, BlockContent, BlockDes, BlockHead, BlockTitle, Button, PreviewCard } from "../../components/Component";
 import { Link } from "react-router-dom";
 
