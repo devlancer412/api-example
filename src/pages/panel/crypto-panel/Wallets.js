@@ -12,54 +12,32 @@ import {
   Icon,
 } from "../../../components/Component";
 import Wallet from "../../../components/partials/panel/wallet/Wallet";
+import AvailableBalance from "../../../components/partials/panel/available-balance/AvailableBalance";
 
 const Wallets = () => {
   return (
     <React.Fragment>
-      <Head title="Crypto Dashboard"></Head>
+      <Head title="Portfolio"></Head>
       <Content>
         <BlockHead>
-          <BlockHeadSub>Account Wallet</BlockHeadSub>
           <div className="nk-block-between-md g-4">
             <BlockHeadContent>
-              <BlockTitle tag="h2" className="fw-normal">
-                Wallet / Assets
-              </BlockTitle>
+              <BlockTitle className="nk-block-title page-title">Portfolio</BlockTitle>
               <BlockDes>
-                <p>Here is the list of your assets / wallets!</p>
+                <p>A list of your assets available on Cilistia.</p>
               </BlockDes>
             </BlockHeadContent>
+
             <BlockHeadContent>
               <ul className="nk-block-tools gx-3">
                 <li>
-                  <UncontrolledDropdown className="opt-menu-md">
-                    <DropdownToggle tag="a" className="btn btn-dim btn-outline-light btn-icon">
-                      <Icon name="setting"></Icon>
-                    </DropdownToggle>
-                    <DropdownMenu className="dropdown-menu-xs" end>
-                      <ul className="link-list-plain sm">
-                        <li>
-                          <DropdownItem tag="a">
-                            <span>Display</span>
-                          </DropdownItem>
-                        </li>
-                        <li>
-                          <DropdownItem tag="a">
-                            <span>Show</span>
-                          </DropdownItem>
-                        </li>
-                      </ul>
-                    </DropdownMenu>
-                  </UncontrolledDropdown>
-                </li>
-                <li>
                   <Button color="primary">
-                    <span>Send</span> <Icon name="arrow-long-right"></Icon>
+                    <span>Deposit</span> <Icon name="arrow-up"></Icon>
                   </Button>
                 </li>
                 <li>
                   <Button color="dim" className="btn-outline-light">
-                    <span>Withdraw</span> <Icon name="arrow-long-right" className="d-none d-sm-inline-block"></Icon>
+                    <span>Withdraw</span> <Icon name="arrow-down" className="d-none d-sm-inline-block"></Icon>
                   </Button>
                 </li>
               </ul>
@@ -68,21 +46,24 @@ const Wallets = () => {
         </BlockHead>
 
         <Block>
-          <BlockHead size="sm">
-            <BlockHeadContent>
-              <BlockTitle tag="h5">Crypto Accounts</BlockTitle>
-            </BlockHeadContent>
-          </BlockHead>
+          <AvailableBalance />
+        </Block>
+        <BlockHead size="sm">
+          <BlockHeadContent>
+            <BlockTitle tag="h5">Crypto Assets</BlockTitle>
+          </BlockHeadContent>
+        </BlockHead>
+        <Block>
           <Row className="g-gs">
             <Col sm="6" lg="4">
               <Card className="card-bordered is-dark">
                 <Wallet
                   className="is-default"
                   icon="sign-kobo"
-                  title="NioWallet"
-                  firstAmount="40.509505"
-                  firstCurrency="NIO"
-                  secondAmount="8,924.63"
+                  title="CIL"
+                  firstAmount="1240.509505"
+                  firstCurrency="CIL"
+                  secondAmount="88,924.63"
                   secondCurrency="USD"
                 />
               </Card>

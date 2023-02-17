@@ -4,6 +4,7 @@ import Content from "../layout/content/Content";
 import OrderOverview from "../components/partials/crypto/order-overview/OrderOverview";
 import CoinOrder from "../components/partials/crypto/coin-order/CoinOrder";
 import UserActivity from "../components/partials/crypto/user-activity/UserActivity";
+import Referral from "../components/partials/panel/referral/Referral";
 import { Card, DropdownItem, DropdownMenu, DropdownToggle, UncontrolledDropdown } from "reactstrap";
 import {
   Block,
@@ -120,6 +121,13 @@ const CryptoHomePage = () => {
                   <Card className="card-bordered card-full">
                     <UserActivity />
                   </Card>
+                </Col>
+              </Row>
+            </Col>
+            <Col lg="12">
+              <Row className="g-gs">
+                <Col md="12" lg="12">
+                  <Referral />
                 </Col>
               </Row>
             </Col>

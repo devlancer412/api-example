@@ -12,7 +12,7 @@ const menu = [
   },
   {
     icon: "wallet",
-    text: "Wallets",
+    text: "Portfolio",
     link: "/wallets",
   },
   {

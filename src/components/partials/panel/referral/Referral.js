@@ -18,7 +18,7 @@ const Referral = () => {
         <div className="nk-refwg-invite card-inner">
           <div className="nk-refwg-head g-3">
             <div className="nk-refwg-title">
-              <h5 className="title">Refer Us &amp; Earn</h5>
+              <h5 className="title">Refer Cilistia to Friends &amp; Earn</h5>
               <div className="title-sub">Use the bellow link to invite your friends.</div>
             </div>
             <div className="nk-refwg-action">
@@ -29,7 +29,7 @@ const Referral = () => {
             <div className={`form-control-wrap ${copy ? "clipboard-success" : ""}`}>
               <CopyToClipboard
                 className="form-clip clipboard-init"
-                text="https://dashlite.net/?ref=4945KD48"
+                text="https://cilistia.com/0xf....043"
                 onCopy={onCopyClick}
               >
                 <div>
@@ -44,7 +44,7 @@ const Referral = () => {
                 type="text"
                 className="form-control copy-text"
                 id="refUrl"
-                defaultValue="https://dashlite.net/?ref=4945KD48"
+                defaultValue="https://cilistia.com/0xf....043"
               ></input>
             </div>
           </div>
@@ -53,7 +53,7 @@ const Referral = () => {
           <div className="nk-refwg-group g-3">
             <div className="nk-refwg-name">
               <h6 className="title">
-                My Referral{" "}
+                My Referrals{" "}
                 <TooltipComponent icon="info" id="referral-data" direction="right" text="Referral Information" />
               </h6>
             </div>
