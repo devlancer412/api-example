@@ -26,11 +26,11 @@ const Dashboard = () => {
       <Head title="Crypto Dashboard"></Head>
       <Content>
         <BlockHead>
-            <BlockHeadSub>Welcome!</BlockHeadSub>
+          <BlockHeadSub>Welcome!</BlockHeadSub>
           <div className="nk-block-between-md g-4">
             <BlockHeadContent>
               <BlockTitle tag="h2" className="fw-normal">
-                Abu Bin Ishtiyak
+                Max Smith
               </BlockTitle>
               <BlockDes>
                 <p>At a glance summary of your account. Have fun!</p>

@@ -1883,8 +1883,8 @@ export const selectOptions = [
   },
   {
     id: 2,
-    value: "Abu Bin Ishtiak",
-    label: "Abu Bin Ishtiak",
+    value: "Max Smith",
+    label: "Max Smith",
   },
   {
     id: 3,

@@ -4,17 +4,19 @@ import UserProfileRegularPage from "./UserProfileRegular";
 import UserProfileSettingPage from "./UserProfileSetting";
 import UserProfileNotificationPage from "./UserProfileNotification";
 import UserProfileConnectedPage from "./UserProfileConnected";
-import { Route, Switch,  NavLink } from "react-router-dom";
-import { BlockDes, BlockHead, BlockHeadContent, BlockTitle, Icon, } from "../../../../components/Component";
-import {  Nav, NavItem, Tooltip } from "reactstrap";
+import { Route, Switch, NavLink } from "react-router-dom";
+import { BlockDes, BlockHead, BlockHeadContent, BlockTitle, Icon } from "../../../../components/Component";
+import { Nav, NavItem, Tooltip } from "reactstrap";
 
 const UserProfileLayout = () => {
-  const [tooltipOpen , setOpen] = useState(false);
-  const toggle = () => {setOpen(!tooltipOpen)};
+  const [tooltipOpen, setOpen] = useState(false);
+  const toggle = () => {
+    setOpen(!tooltipOpen);
+  };
 
   const [sm, updateSm] = useState(false);
   const [mobileView, setMobileView] = useState(false);
-  const [profileName, setProfileName] = useState("Abu Bin Ishtiak");
+  const [profileName, setProfileName] = useState("Max Smith");
 
   // function to change the design view under 990 px
   const viewChange = () => {
@@ -44,11 +46,18 @@ const UserProfileLayout = () => {
       <Content>
         <BlockHead>
           <BlockHeadContent>
-            <div className="nk-block-head-sub"><span>Account Setting</span></div>
-            <BlockTitle tag="h2" className="fw-normal">My Profile</BlockTitle>
+            <div className="nk-block-head-sub">
+              <span>Account Setting</span>
+            </div>
+            <BlockTitle tag="h2" className="fw-normal">
+              My Profile
+            </BlockTitle>
             <BlockDes>
-            <p>You have full control to manage your own account setting. <span className="text-primary">
-              <Icon name="info" id="id"></Icon></span>
+              <p>
+                You have full control to manage your own account setting.{" "}
+                <span className="text-primary">
+                  <Icon name="info" id="id"></Icon>
+                </span>
               </p>
               <Tooltip placement="right" isOpen={tooltipOpen} target="id" toggle={toggle}>
                 Tooltip on right
@@ -56,15 +65,14 @@ const UserProfileLayout = () => {
             </BlockDes>
           </BlockHeadContent>
         </BlockHead>
-        <Nav 
-        className={`nk-nav nav nav-tabs ${
-          sm ? "content-active" : ""
-        }`}>
+        <Nav className={`nk-nav nav nav-tabs ${sm ? "content-active" : ""}`}>
           <NavItem className="nav-item" onClick={() => updateSm(false)}>
             <NavLink
               to={`${process.env.PUBLIC_URL}/crypto/user-profile-regular`}
               className={
-                window.location.pathname === `${process.env.PUBLIC_URL}/crypto/user-profile-regular` ? "nav-link active" : "nav-link"
+                window.location.pathname === `${process.env.PUBLIC_URL}/crypto/user-profile-regular`
+                  ? "nav-link active"
+                  : "nav-link"
               }
             >
               <span>Personal</span>
@@ -74,7 +82,9 @@ const UserProfileLayout = () => {
             <NavLink
               to={`${process.env.PUBLIC_URL}/crypto/user-profile-setting`}
               className={
-                window.location.pathname === `${process.env.PUBLIC_URL}/crypto/user-profile-setting` ? "nav-link active" : "nav-link"
+                window.location.pathname === `${process.env.PUBLIC_URL}/crypto/user-profile-setting`
+                  ? "nav-link active"
+                  : "nav-link"
               }
             >
               <span>Security</span>
@@ -93,21 +103,19 @@ const UserProfileLayout = () => {
             </NavLink>
           </NavItem>
           <NavItem className="nav-item" onClick={() => updateSm(false)}>
-            <NavLink 
+            <NavLink
               to={`${process.env.PUBLIC_URL}/crypto/user-profile-connected`}
               className={
-                window.location.pathname === `${process.env.PUBLIC_URL}/crypto/user-profile-connected` ? "nav-link active" : "nav-link"
+                window.location.pathname === `${process.env.PUBLIC_URL}/crypto/user-profile-connected`
+                  ? "nav-link active"
+                  : "nav-link"
               }
             >
               <span>Connect Social</span>
             </NavLink>
           </NavItem>
         </Nav>
-        <div
-              className={` ${
-                sm ? "content-active" : ""
-              }`}
-            ></div>
+        <div className={` ${sm ? "content-active" : ""}`}></div>
         {sm && mobileView && <div onClick={() => updateSm(!sm)}></div>}
         <Switch>
           <Route

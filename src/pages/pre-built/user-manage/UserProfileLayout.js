@@ -12,7 +12,7 @@ import { Card, DropdownItem, UncontrolledDropdown, DropdownMenu, DropdownToggle 
 const UserProfileLayout = () => {
   const [sm, updateSm] = useState(false);
   const [mobileView, setMobileView] = useState(false);
-  const [profileName, setProfileName] = useState("Abu Bin Ishtiak");
+  const [profileName, setProfileName] = useState("Max Smith");
 
   // function to change the design view under 990 px
   const viewChange = () => {
@@ -53,7 +53,7 @@ const UserProfileLayout = () => {
                     <UserAvatar text={findUpper(profileName)} theme="primary" />
                     <div className="user-info">
                       <span className="lead-text">{profileName}</span>
-                      <span className="sub-text">info@softnio.com</span>
+                      <span className="sub-text">0x19b...4302</span>
                     </div>
                     <div className="user-action">
                       <UncontrolledDropdown>

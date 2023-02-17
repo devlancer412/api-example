@@ -20,7 +20,7 @@ const Welcome = () => {
         <BlockHead size="lg" className="wide-xs mx-auto">
           <BlockHeadContent className="text-center">
             <BlockTitle className="fw-normal" tag="h2">
-              Nice, Abu Bin Ishtiyak!
+              Nice, Max Smith!
             </BlockTitle>
             <BlockDes>
               <p>
@@ -42,12 +42,12 @@ const Welcome = () => {
                   </div>
                   <div className="card-inner">
                     <ul className="list list-step">
-                        <li className="list-step-done">Verify email address</li>
-                        <li className="list-step-current">Verify your identity (KYC)</li>
-                        <li>Secure your account</li>
-                        <li>Set up payment method</li>
+                      <li className="list-step-done">Verify email address</li>
+                      <li className="list-step-current">Verify your identity (KYC)</li>
+                      <li>Secure your account</li>
+                      <li>Set up payment method</li>
                     </ul>
-                </div>
+                  </div>
                   <div className="card-inner">
                     <div className="align-center gx-3">
                       <div className="flex-item">

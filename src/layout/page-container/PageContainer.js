@@ -17,7 +17,7 @@ const PageContainer = ({ ...props }) => {
   return (
     <React.Fragment>
       <div className="nk-app-root">
-        <div className="nk-wrap nk-wrap-nosidebar bg-white">
+        <div className="nk-wrap nk-wrap-nosidebar bg-dark">
           <div className="nk-content">{props.children}</div>
         </div>
       </div>

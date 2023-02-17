@@ -194,7 +194,7 @@ const KycDetailsRegular = ({ match }) => {
                     <li className="data-item">
                       <div className="data-col">
                         <div className="data-label">Email Address</div>
-                        <div className="data-value">info@softnio.com</div>
+                        <div className="data-value">0x19b...4302</div>
                       </div>
                     </li>
                     <li className="data-item">

@@ -2,8 +2,8 @@ export const newUserData = [
   {
     initial: "AB",
     theme: "purple-dim",
-    name: "Abu Ibn Ishtiak",
-    email: "info@softnio.com",
+    name: "Max Smith",
+    email: "0x19b...4302",
   },
   {
     initial: "SW",

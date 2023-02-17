@@ -30,7 +30,17 @@ import {
   Progress,
 } from "../../../components/Component";
 import { findUpper } from "../../../utils/Utils";
-import { Card, Row, Col, Button, UncontrolledDropdown, DropdownMenu, DropdownItem, DropdownToggle, Badge } from "reactstrap";
+import {
+  Card,
+  Row,
+  Col,
+  Button,
+  UncontrolledDropdown,
+  DropdownMenu,
+  DropdownItem,
+  DropdownToggle,
+  Badge,
+} from "reactstrap";
 
 const CardWidgets = () => {
   const [heart, setHeart] = useState(false);
@@ -249,7 +259,7 @@ const CardWidgets = () => {
                         <div className="status dot dot-lg dot-success"></div>
                       </UserAvatar>
                       <div className="user-info">
-                        <h6>Abu Bin Ishtiak</h6>
+                        <h6>Max Smith</h6>
                         <span className="sub-text">@ishtyak</span>
                       </div>
                     </div>
@@ -330,7 +340,7 @@ const CardWidgets = () => {
             <div className="status dot dot-lg dot-success"></div>
         </UserAvatar>
         <div className="user-info">
-            <h6>Abu Bin Ishtiak</h6>
+            <h6>Max Smith</h6>
             <span className="sub-text">@ishtyak</span>
         </div>
     </div>
@@ -420,7 +430,7 @@ const CardWidgets = () => {
                         <div className="status dot dot-lg dot-success"></div>
                       </UserAvatar>
                       <div className="user-info">
-                        <h6>Abu Bin Ishtiak</h6>
+                        <h6>Max Smith</h6>
                       </div>
                     </div>
                     <div className="team-details">
@@ -437,7 +447,7 @@ const CardWidgets = () => {
                       </li>
                       <li>
                         <span>Email</span>
-                        <span>info@softnio.com</span>
+                        <span>0x19b...4302</span>
                       </li>
                     </ul>
                     <div className="team-view">
@@ -495,7 +505,7 @@ const CardWidgets = () => {
         <div className="status dot dot-lg dot-success"></div>
       </UserAvatar>
       <div className="user-info">
-        <h6>Abu Bin Ishtiak</h6>
+        <h6>Max Smith</h6>
       </div>
     </div>
     <div className="team-details">
@@ -512,7 +522,7 @@ const CardWidgets = () => {
       </li>
       <li>
         <span>Email</span>
-        <span>info@softnio.com</span>
+        <span>0x19b...4302</span>
       </li>
     </ul>
     <div className="team-view">

@@ -37,8 +37,8 @@ const User = () => {
               <span>AB</span>
             </div>
             <div className="user-info">
-              <span className="lead-text">Abu Bin Ishtiyak</span>
-              <span className="sub-text">info@softnio.com</span>
+              <span className="lead-text">Max Smith</span>
+              <span className="sub-text">0x19b...4302</span>
             </div>
           </div>
         </div>

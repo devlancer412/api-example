@@ -21,8 +21,8 @@ const UserProfileRegularPage = ({ setProfileName }) => {
   const [modalTab, setModalTab] = useState("1");
   const [userInfo, setUserInfo] = useState(userData[0]);
   const [formData, setFormData] = useState({
-    name: "Abu Bin Ishtiak",
-    displayName: "Ishtiak",
+    name: "Max Smith",
+    displayName: "ISmith",
     phone: "818474958",
     dob: "1980-08-10",
     address: "2337 Kildeer Drive",
@@ -55,15 +55,19 @@ const UserProfileRegularPage = ({ setProfileName }) => {
         <div className="alert alert-warning">
           <div className="alert-cta flex-wrap flex-md-nowrap">
             <div className="alert-text">
-                <p>Upgrade your account to unlock full feature and increase your limit of transaction amount.</p>
+              <p>Upgrade your account to unlock full feature and increase your limit of transaction amount.</p>
             </div>
             <ul className="alert-actions gx-3 mt-3 mb-1 my-md-0">
-                <li className="order-md-last">
-                    <a href="#" className="btn btn-sm btn-warning">Upgrade</a>
-                </li>
-                <li>
-                    <a href="#" className="link link-primary">Learn More</a>
-                </li>
+              <li className="order-md-last">
+                <a href="#" className="btn btn-sm btn-warning">
+                  Upgrade
+                </a>
+              </li>
+              <li>
+                <a href="#" className="link link-primary">
+                  Learn More
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -104,7 +108,7 @@ const UserProfileRegularPage = ({ setProfileName }) => {
           <div className="data-item">
             <div className="data-col">
               <span className="data-label">Email</span>
-              <span className="data-value">info@softnio.com</span>
+              <span className="data-value">0x19b...4302</span>
             </div>
             <div className="data-col data-col-end">
               <span className="data-more disable">

@@ -34,7 +34,7 @@ const InboxMessages = ({
   const [inboxText, setInboxText] = useState("");
   const [templateList, setTemplateList] = useState(formTemplates);
   const [attachmentList, setAttachmentList] = useState([]);
-  const [tagifyOptions, setTagifyOptions] = useState([{ value: "info@softnio.com" }]);
+  const [tagifyOptions, setTagifyOptions] = useState([{ value: "0x19b...4302" }]);
   const [ccTagify, setCCTagify] = useState({
     toggle: false,
     value: [""],
@@ -299,7 +299,7 @@ const InboxMessages = ({
                         <ul className="link-list-opt no-bdr">
                           <li>
                             <DropdownItem tag="a" href="#item" onClick={(ev) => ev.preventDefault()}>
-                              <Icon name="reply-fill"></Icon> <span>Reply to Abu Bin Ishtiyak</span>
+                              <Icon name="reply-fill"></Icon> <span>Reply to Max Smith</span>
                             </DropdownItem>
                           </li>
                           <li>

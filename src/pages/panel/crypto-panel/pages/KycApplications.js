@@ -53,8 +53,7 @@ const KycApplications = () => {
             </PreviewAltCard>
             <div className="text-center pt-4">
               <p>
-                If you have any question, please contact our support team{" "}
-                <a href="mailto:info@softnio.com">info@softnio.com</a>
+                If you have any question, please contact our support team <a href="mailto:0x19b...4302">0x19b...4302</a>
               </p>
             </div>
           </Block>

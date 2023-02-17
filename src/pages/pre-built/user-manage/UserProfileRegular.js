@@ -22,8 +22,8 @@ const UserProfileRegularPage = ({ sm, updateSm, setProfileName }) => {
   const [modalTab, setModalTab] = useState("1");
   const [userInfo, setUserInfo] = useState(userData[0]);
   const [formData, setFormData] = useState({
-    name: "Abu Bin Ishtiak",
-    displayName: "Ishtiak",
+    name: "Max Smith",
+    displayName: "ISmith",
     phone: "818474958",
     dob: "1980-08-10",
     address: "2337 Kildeer Drive",
@@ -101,7 +101,7 @@ const UserProfileRegularPage = ({ sm, updateSm, setProfileName }) => {
           <div className="data-item">
             <div className="data-col">
               <span className="data-label">Email</span>
-              <span className="data-value">info@softnio.com</span>
+              <span className="data-value">0x19b...4302</span>
             </div>
             <div className="data-col data-col-end">
               <span className="data-more disable">

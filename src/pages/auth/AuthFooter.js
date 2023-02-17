@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const AuthFooter = () => {
   return (
-    <div className="nk-footer nk-auth-footer-full">
+    <div className="nk-footer nk-auth-footer-full bg-dark">
       <div className="container wide-lg">
         <Row className="g-3">
           <Col lg={6} className="order-lg-last">

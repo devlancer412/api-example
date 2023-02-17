@@ -14,7 +14,7 @@ import {
   Icon,
   PreviewCard,
 } from "../../components/Component";
-import { Form,  Spinner, Alert } from "reactstrap";
+import { Form, Spinner, Alert } from "reactstrap";
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
 
@@ -25,7 +25,7 @@ const Login = () => {
 
   const onFormSubmit = (formData) => {
     setLoading(true);
-    const loginName = "info@softnio.com";
+    const loginName = "0x19b...4302";
     const pass = "123456";
     if (formData.name === loginName && formData.passcode === pass) {
       localStorage.setItem("accessToken", "token");
@@ -89,7 +89,7 @@ const Login = () => {
                     id="default-01"
                     name="name"
                     ref={register({ required: "This field is required" })}
-                    defaultValue="info@softnio.com"
+                    defaultValue="0x19b...4302"
                     placeholder="Enter your email address or username"
                     className="form-control-lg form-control"
                   />
