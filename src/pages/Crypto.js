@@ -124,13 +124,6 @@ const CryptoHomePage = () => {
                 </Col>
               </Row>
             </Col>
-            <Col lg="12">
-              <Row className="g-gs">
-                <Col md="12" lg="12">
-                  <Referral />
-                </Col>
-              </Row>
-            </Col>
           </Row>
         </Block>
       </Content>

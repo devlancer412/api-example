@@ -24,23 +24,8 @@ const Wallets = () => {
             <BlockHeadContent>
               <BlockTitle className="nk-block-title page-title">Portfolio</BlockTitle>
               <BlockDes>
-                <p>A list of your assets available on Cilistia.</p>
+                <p>A list of your available assets on Cilistia.</p>
               </BlockDes>
-            </BlockHeadContent>
-
-            <BlockHeadContent>
-              <ul className="nk-block-tools gx-3">
-                <li>
-                  <Button color="primary">
-                    <span>Deposit</span> <Icon name="arrow-up"></Icon>
-                  </Button>
-                </li>
-                <li>
-                  <Button color="dim" className="btn-outline-light">
-                    <span>Withdraw</span> <Icon name="arrow-down" className="d-none d-sm-inline-block"></Icon>
-                  </Button>
-                </li>
-              </ul>
             </BlockHeadContent>
           </div>
         </BlockHead>
@@ -63,7 +48,7 @@ const Wallets = () => {
                   title="CIL"
                   firstAmount="1240.509505"
                   firstCurrency="CIL"
-                  secondAmount="88,924.63"
+                  secondAmount="8,924.63"
                   secondCurrency="USD"
                 />
               </Card>
@@ -75,7 +60,7 @@ const Wallets = () => {
                   title="Ethereum Wallet"
                   firstAmount="0.452058"
                   firstCurrency="ETH"
-                  secondAmount="1,583.25"
+                  secondAmount="747.20"
                   secondCurrency="USD"
                 />
               </Card>
@@ -87,7 +72,7 @@ const Wallets = () => {
                   title="Bitcoin Wallet"
                   firstAmount="4.434953"
                   firstCurrency="BTC"
-                  secondAmount="28,247.63"
+                  secondAmount="105,813.44"
                   secondCurrency="USD"
                 />
               </Card>
@@ -97,7 +82,7 @@ const Wallets = () => {
         <Block size="lg">
           <BlockHead size="sm">
             <BlockHeadContent>
-              <BlockTitle tag="h5">Fiat Accounts</BlockTitle>
+              <BlockTitle tag="h5">Stables</BlockTitle>
             </BlockHeadContent>
           </BlockHead>
           <Row className="g-gs">
@@ -106,9 +91,9 @@ const Wallets = () => {
                 <Wallet
                   className="is-default"
                   icon="sign-usd"
-                  title="USD Account"
+                  title="USDT Account"
                   firstAmount="12,495.90"
-                  firstCurrency="USD"
+                  firstCurrency="USDT"
                   secondAmount="12,495.90"
                   secondCurrency="USD"
                 />
@@ -117,10 +102,10 @@ const Wallets = () => {
             <Col sm="6" lg="4">
               <Card className="card-bordered">
                 <Wallet
-                  icon="sign-eur"
-                  title="EUR Account"
+                  icon="sign-usd"
+                  title="USDC Account"
                   firstAmount="12,495.90"
-                  firstCurrency="EUR"
+                  firstCurrency="USDC"
                   secondAmount="11,495.90"
                   secondCurrency="USD"
                 />
@@ -136,7 +121,9 @@ const Wallets = () => {
                       </div>
                       <h6 className="title">Add New Wallet</h6>
                     </a>
-                    <span className="sub-text">You can add your more wallet in your account to manage separetly.</span>
+                    <span className="sub-text">
+                      You may add a new wallet for any of the assets that Cilistia supports.{" "}
+                    </span>
                   </div>
                 </div>
               </Card>

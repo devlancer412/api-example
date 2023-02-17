@@ -10,8 +10,8 @@ const AvailableBalance = () => {
       <div className="nk-wg1 mb-3">
         <div className="nk-wg1-group g-2">
           <div className="nk-wg1-item me-xl-4">
-            <div className="nk-wg1-title">
-              Available Balance /{" "}
+            <h5 className="title">
+              Available Balance :{" "}
               <UncontrolledDropdown>
                 <DropdownToggle
                   className="dropdown-indicator-caret"
@@ -41,36 +41,34 @@ const AvailableBalance = () => {
                   </ul>
                 </DropdownMenu>
               </UncontrolledDropdown>
-            </div>
+            </h5>
             <div className="nk-wg1-amount">
-              <div className="amount">
-                2.010550 <small className="currency currency-btc">{currency}</small>
-              </div>
+              <h3 className="amount">297,404.21</h3>
             </div>
           </div>
           <div className="nk-wg1-item ms-lg-auto">
-            <div className="nk-wg1-title">In this month</div>
+            <div className="nk-wg1-title"></div>
             <div className="nk-wg1-group g-2">
               <div className="nk-wg1-sub">
                 <div className="sub-text">
-                  <span>Send</span>
+                  <span>Buy Orders</span>
                   <div className="dot" style={{ background: "rgb(156, 171, 255)" }}></div>
                 </div>
-                <div className="lead-text">762,954.63</div>
+                <div className="lead-text">62,954.63</div>
               </div>
               <div className="nk-wg1-sub">
                 <div className="sub-text">
-                  <span>Receive</span>
+                  <span>Sell Orders</span>
                   <div className="dot" style={{ background: "rgb(186, 174, 255)" }}></div>
                 </div>
-                <div className="lead-text">762,954.63</div>
+                <div className="lead-text">930,012.40</div>
               </div>
               <div className="nk-wg1-sub">
                 <div className="sub-text">
-                  <span>Withdraw</span>
+                  <span>In Orders</span>
                   <div className="dot" style={{ background: "rgb(167, 204, 255)" }}></div>
                 </div>
-                <div className="lead-text">762,954.63</div>
+                <div className="lead-text">403,954.63</div>
               </div>
             </div>
           </div>

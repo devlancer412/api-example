@@ -51,7 +51,7 @@ const UserProfileRegularPage = ({ sm, updateSm, setProfileName }) => {
 
   return (
     <React.Fragment>
-      <Head title="User List - Profile"></Head>
+      <Head title="Proflie"></Head>
       <BlockHead size="lg">
         <BlockBetween>
           <BlockHeadContent>
